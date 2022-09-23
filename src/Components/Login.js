@@ -29,28 +29,28 @@ function Login() {
     <div className="container">
       <div className="col-lg-12">
         <h2
-          className="text-center"
+          className="text-center signin"
           style={{
-            marginLeft: "390px",
+            marginLeft: "190px",
             marginTop: "80px",
             background: "#fe8a02",
-            marginRight: "500px",
+            marginRight: "300px",
             padding: "10px 0px 10px 0px",
             color: "white",
-            fontSize:"1.8rem"
+            fontSize: "1.8rem",
           }}
         >
-         SIGN IN
+          SIGN IN
         </h2>
         <div
           className="row"
           style={{
-            marginLeft: "390px",
-            marginRight: "500px",
+            marginLeft: "190px",
+            marginRight: "300px",
             background: "white",
             boxShadow:
               "rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px",
-            paddingLeft: "50px",
+            paddingLeft: "30px",
             paddingTop: "30px",
           }}
         >
@@ -96,11 +96,11 @@ function Login() {
               Submit
             </button>
 
-            <div class="mb-5 py-3">
+            <div class="col-lg mb-5 py-3">
               <p class="form-label">
-                Don't have account  {" "}
+                Don't have account{" "}
                 <Link style={{ textDecoration: "none" }} to="/register">
-                    Sign up
+                  Sign up
                 </Link>
               </p>
             </div>
