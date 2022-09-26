@@ -29,7 +29,7 @@ function Dashboard() {
           style={{
             background: "white",
             boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
-            padding: "20px 20px 20px 150px",
+            padding: "20px 20px 20px 50px",
             marginRight: "400px",
             borderRadius: "25px",
           }}
