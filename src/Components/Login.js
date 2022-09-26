@@ -28,20 +28,17 @@ function Login() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-lg-12">
-          <h2
-            style={{
-              background: "#fe8a02",
-              textAlign: "center",
-              marginLeft: "380px",
-              marginTop: "80px",
-              marginRight: "480px",
-              color: "white",
-              padding: "4px",
-            }}
-          >
-            SIGN IN
-          </h2>
+        <div
+          className="col-lg-4"
+          style={{
+            background: "#fe8a02",
+            textAlign: "center",
+            margin: "80px 780px 0px 390px",
+            color: "white",
+            padding: "4px",
+          }}
+        >
+          <h2>SIGN IN</h2>
         </div>
       </div>
       <div className="row">
