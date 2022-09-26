@@ -27,15 +27,16 @@ function Login() {
   });
   return (
     <div className="container">
-      <div className="col-lg-12">
+      <div className="row">
+      <div className="col-lg-12" 
+            >
         <h2
-          className="text-center signin"
           style={{
-            marginLeft: "190px",
+            marginLeft: "290px",
             marginTop: "80px",
             background: "#fe8a02",
-            marginRight: "300px",
-            padding: "10px 0px 10px 0px",
+            marginRight: "600px",
+            padding: "10px 0px 10px 160px",
             color: "white",
             fontSize: "1.8rem",
           }}
@@ -45,8 +46,8 @@ function Login() {
         <div
           className="row"
           style={{
-            marginLeft: "190px",
-            marginRight: "300px",
+            marginLeft: "290px",
+            marginRight: "600px",
             background: "white",
             boxShadow:
               "rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px",
@@ -107,8 +108,59 @@ function Login() {
           </form>
         </div>
       </div>
+      </div>
     </div>
   );
 }
 
 export default Login;
+
+
+//  <div className="container">
+// <div className="row">
+//   <div className="col-lg-7" id="login-box">
+//     <div className="col-lg-7">
+//       <label>Email</label>
+//       <input
+//         placeholder="Example : johndoe@gmail.com"
+//         name="email"
+//         onChange={formik.handleChange}
+//         value={formik.values.email}
+//         type="text"
+//         className={`form-control ${
+//           formik.errors.email ? "error-border" : ""
+//         }`}
+//       />
+//     </div>
+//     <div className="row">
+//       <div className="col mt-3">
+//         <div className="col-lg-7 ">
+//           <label>Password</label>
+//           <input
+//             placeholder="Your password"
+//             onChange={formik.handleChange}
+//             value={formik.values.password}
+//             type="password"
+//             className={`form-control ${
+//               formik.errors.password ? "error-border" : ""
+//             }`}
+//           />
+//         </div>
+//       </div>
+//     </div>
+//     <div className="row">
+//       <div className="col-lg-12">
+//         <Link class="col-md-7 btn btn-primary mt-3 mb-3" to={"/navbar"}>
+//           Login
+//         </Link>
+//       </div>
+//     </div>
+//     <div class="register-link">
+//       Don’t have an account? <Link to={"/register"}>Sign up</Link>
+//     </div>
+//   </div>
+//   <div className="col-lg-3" id="login-right-side-img">
+//     <img src={loginPage} />
+//   </div>
+// </div>
+// </div> 
