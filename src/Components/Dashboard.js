@@ -12,25 +12,31 @@ function Dashboard() {
       className="container"
       style={{ marginLeft: "250px", marginTop: "100px" }}
     >
-      <button
-        class="btn btn-danger mt-3"
-        onClick={doLogout}
-        style={{ marginLeft: "800px" }}
-      >
-        Logout
-      </button>
-      <h2
-        className="mt-3"
-        style={{
-          background: "white",
-          boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
-          padding: "20px 20px 20px 150px",
-          marginRight: "400px",
-          borderRadius: "25px",
-        }}
-      >
-        Welcome to Deployment practise task
-      </h2>
+      <div className="row">
+        <div>
+          <button
+            class="btn btn-danger mt-3"
+            onClick={doLogout}
+            style={{ marginLeft: "800px" }}
+          >
+            Logout
+          </button>
+        </div>
+      </div>
+      <div className="col-lg-12">
+        <h2
+          className="mt-3"
+          style={{
+            background: "white",
+            boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+            padding: "20px 20px 20px 150px",
+            marginRight: "400px",
+            borderRadius: "25px",
+          }}
+        >
+          Welcome to Deployment practise task
+        </h2>
+      </div>
     </div>
   );
 }
