@@ -33,10 +33,12 @@ function ResetPasswordPage() {
               marginLeft: "100px",
             }}
           >
-            <div class="col-lg-9">
+            <div className="col-lg-12">
               <h3 style={{ marginLeft: "100px", color: "red" }}>
                 Password Reset
               </h3>
+            </div>
+            <div class="col-lg-9">
               <label for="exampleInputEmail1" class="form-label">
                 Enter Random String:
               </label>
