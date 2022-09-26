@@ -31,15 +31,15 @@ function Login() {
       <div className="col-lg-12" 
             >
         <h2
-          style={{
-            marginLeft: "290px",
-            marginTop: "80px",
-            background: "#fe8a02",
-            marginRight: "600px",
-            padding: "10px 0px 10px 160px",
-            color: "white",
-            fontSize: "1.8rem",
-          }}
+          // style={{
+          //   marginLeft: "290px",
+          //   marginTop: "80px",
+          //   background: "#fe8a02",
+          //   marginRight: "600px",
+          //   padding: "10px 0px 10px 160px",
+          //   color: "white",
+          //   fontSize: "1.8rem",
+          // }}
         >
           SIGN IN
         </h2>
